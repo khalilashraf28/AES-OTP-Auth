@@ -1,10 +1,6 @@
-Below is a professional and comprehensive `README.md` file for your GitHub repository, named **SSUET-SecureAuth**, based on the context of your project. The project involves a secure authentication system with OTP encryption using AES, a Flask-based backend, a Streamlit frontend for Sir Syed University of Engineering and Technology (SSUET), and a socket-based key exchange with an HTTP fallback. The README includes an overview, features, setup instructions, usage, security considerations, and contribution guidelines, tailored to your project’s functionality and the fixes applied for issues like `ConnectionResetError` and `ValueError: signal only works in main thread`.
+# AES-OTP-Auth
 
----
-
-# SSUET-SecureAuth
-
-**SSUET-SecureAuth** is a secure authentication portal for Sir Syed University of Engineering and Technology (SSUET), built with a Flask backend and Streamlit frontend. It provides user registration and login with OTP-based two-factor authentication, AES-128 encryption for OTPs, and a socket-based key exchange mechanism. The system includes a protected dashboard displaying SSUET information, accessible only to authenticated users.
+**AES-OTP-Auth** is a secure authentication portal for Sir Syed University of Engineering and Technology (SSUET), built with a Flask backend and Streamlit frontend. It provides user registration and login with OTP-based two-factor authentication, AES-128 encryption for OTPs, and a socket-based key exchange mechanism. The system includes a protected dashboard displaying SSUET information, accessible only to authenticated users.
 
 ## Table of Contents
 - [Features](#features)
