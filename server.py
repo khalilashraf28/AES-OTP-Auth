@@ -6,7 +6,7 @@ import time
 from datetime import timedelta
 from utils.hash_utils import hash_password, verify_password_similarity
 from utils.email_utils import send_otp
-from utils.encryption_utils import encrypt_otp, decrypt_otp
+from utils.encryption_utils import encrypt_otp
 from utils.socket_utils import run_key_server, stop_key_server
 import threading
 import logging

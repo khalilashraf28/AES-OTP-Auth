@@ -129,8 +129,8 @@ def login_tab():
     if st.session_state.encrypted_otp and st.session_state.login_email:
         try:
             decrypted_otp = decrypt_otp(st.session_state.encrypted_otp, KEY)
-            st.info(f"encrypted OTP: {st.session_state.encrypted_otp}")
-            st.info(f"Decrypted OTP (for testing): {decrypted_otp}")
+            # st.info(f"encrypted OTP: {st.session_state.encrypted_otp}")
+            # st.info(f"Decrypted OTP (for testing): {decrypted_otp}")
             logging.debug(f"Decrypted OTP: {decrypted_otp}")
         except Exception as e:
             st.error(f"OTP decryption failed: {e}")
@@ -212,7 +212,7 @@ def register_tab():
     if st.session_state.encrypted_otp and st.session_state.register_email:
         try:
             decrypted_otp = decrypt_otp(st.session_state.encrypted_otp, KEY)
-            st.info(f"Decrypted OTP (for testing): {decrypted_otp}")
+            # st.info(f"Decrypted OTP (for testing): {decrypted_otp}")
             logging.debug(f"Decrypted OTP: {decrypted_otp}")
         except Exception as e:
             st.error(f"OTP decryption failed: {e}")
